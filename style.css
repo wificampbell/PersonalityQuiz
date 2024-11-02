@@ -1,0 +1,145 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body
+{
+  background-color : #dbc1ac;
+}
+
+h1 
+{
+  background-color: #DDBC95;
+  margin-top : -8px;
+  padding-bottom : 40px;
+  padding-top : 40px;
+  padding-right : 20px;
+  padding-left : 0px;
+  margin-right : 0px;
+  margin-left : -8px;
+  border-bottom : 15px solid #967259;
+  color: #6a4A3A;
+}
+
+#heading
+{
+  font-size : 300%;
+}
+
+p
+{
+  color : #6a4A3A;
+  margin-left : 10px;
+  margin-top : -23px;
+  margin-bottom : -20px;
+}
+
+h2
+{
+  margin-top : 0px;
+  margin-left : 10px;
+  color: #6a4A3A;
+}
+
+
+h2 {
+  margin-top: 2em;
+}
+
+.question {
+  display: flex;
+  justify-content: center; 
+  margin-top: 2em;
+}
+  
+.answer-choice {
+  margin: 5px;
+  padding-right : 60px;
+}
+
+.answer-choice img {
+  height: 200px;
+  width : 300px;
+  margin-left : 0px;
+  padding-left : 19px;
+  margin-right : 0px;
+}
+
+/*button 
+  {
+    font-family : monospaced;
+    background-color: #967259;
+    border: none;
+    padding: 10px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin : 0px;
+    border-radius : 8px;
+    margin-top : 10px;
+}*/
+
+  button 
+  {
+    display: inline-block;
+    padding: 10px 17px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #967259;
+    /*border: none;*/
+    border : 4px, red;
+    border-radius: 15px;
+    box-shadow: 0 9px #4C3228;
+  }
+  
+  button:hover 
+  {
+    background-color : #DDBC95;
+  }
+
+  button:active 
+  {
+    background-color: #967259;
+    box-shadow: 0 5px#4C3228;
+    transform: translateY(4px);
+  }
+
+
+.q1a2 button
+  {
+    margin-top : 10px;
+  }
+  
+  
+#result
+  {
+    background-color : #DDBC95;
+    border-top : 15px solid #967259;
+    padding-bottom : 200px;
+    margin-bottom : -230px;
+    padding-left : 30px;
+    margin-left : -30px;
+    margin-top : 20px; 
+    padding-top : 20px;
+  }
+
+  hr.rounded 
+{
+  margin-top : 70px;
+  margin-bottom : 30px;
+  border: 5px dashed #967259;
+  border-radius: 5px;
+}
+
+/*
+#E8AFAE
+#FFCABF
+#FFCCE2
+#E8AEE4
+#F0BFFF
+*/
